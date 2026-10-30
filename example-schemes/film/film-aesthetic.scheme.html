@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Scheme #3e2913</title>
+<style>
+  body { font-family: sans-serif; }
+  h3 { margin: 16px 0 6px; font-size: 13px; font-weight: normal; color: #555; }
+  .swatches { display: flex; gap: 8px; overflow-x: auto; }
+  .swatches div { flex: none; width: 160px; height: 72px; display: flex;
+                  flex-direction: column; align-items: center;
+                  justify-content: center; gap: 4px; font-family: monospace;
+                  font-size: 12px; text-align: center; }
+</style>
+</head>
+<body>
+<h2>Light</h2>
+<h3>background</h3>
+<div class="swatches">
+<div style="background:#fff8f5; color:#000000"><span>background</span>#fff8f5</div>
+<div style="background:#211a14; color:#ffffff"><span>on_<wbr>background</span>#211a14</div>
+</div>
+<h3>surface</h3>
+<div class="swatches">
+<div style="background:#fff8f5; color:#000000"><span>surface</span>#fff8f5</div>
+<div style="background:#e6d7cd; color:#000000"><span>surface_<wbr>dim</span>#e6d7cd</div>
+<div style="background:#fff8f5; color:#000000"><span>surface_<wbr>bright</span>#fff8f5</div>
+<div style="background:#211a14; color:#ffffff"><span>on_<wbr>surface</span>#211a14</div>
+<div style="background:#51453a; color:#ffffff"><span>on_<wbr>surface_<wbr>variant</span>#51453a</div>
+</div>
+<h3>surface containers</h3>
+<div class="swatches">
+<div style="background:#ffffff; color:#000000"><span>surface_<wbr>container_<wbr>lowest</span>#ffffff</div>
+<div style="background:#fff1e7; color:#000000"><span>surface_<wbr>container_<wbr>low</span>#fff1e7</div>
+<div style="background:#faebe0; color:#000000"><span>surface_<wbr>container</span>#faebe0</div>
+<div style="background:#f4e6db; color:#000000"><span>surface_<wbr>container_<wbr>high</span>#f4e6db</div>
+<div style="background:#efe0d5; color:#000000"><span>surface_<wbr>container_<wbr>highest</span>#efe0d5</div>
+</div>
+<h3>inverse</h3>
+<div class="swatches">
+<div style="background:#372f28; color:#ffffff"><span>inverse_<wbr>surface</span>#372f28</div>
+<div style="background:#fdeee3; color:#000000"><span>inverse_<wbr>on_<wbr>surface</span>#fdeee3</div>
+<div style="background:#fcb975; color:#000000"><span>inverse_<wbr>primary</span>#fcb975</div>
+</div>
+<h3>outline</h3>
+<div class="swatches">
+<div style="background:#837468; color:#000000"><span>outline</span>#837468</div>
+<div style="background:#d5c3b5; color:#000000"><span>outline_<wbr>variant</span>#d5c3b5</div>
+</div>
+<h3>primary</h3>
+<div class="swatches">
+<div style="background:#855318; color:#ffffff"><span>primary</span>#855318</div>
+<div style="background:#ffffff; color:#000000"><span>on_<wbr>primary</span>#ffffff</div>
+<div style="background:#ffdcbe; color:#000000"><span>primary_<wbr>container</span>#ffdcbe</div>
+<div style="background:#693c00; color:#ffffff"><span>on_<wbr>primary_<wbr>container</span>#693c00</div>
+</div>
+<h3>primary fixed</h3>
+<div class="swatches">
+<div style="background:#ffdcbe; color:#000000"><span>primary_<wbr>fixed</span>#ffdcbe</div>
+<div style="background:#fcb975; color:#000000"><span>primary_<wbr>fixed_<wbr>dim</span>#fcb975</div>
+<div style="background:#2c1600; color:#ffffff"><span>on_<wbr>primary_<wbr>fixed</span>#2c1600</div>
+<div style="background:#693c00; color:#ffffff"><span>on_<wbr>primary_<wbr>fixed_<wbr>variant</span>#693c00</div>
+</div>
+<h3>secondary</h3>
+<div class="swatches">
+<div style="background:#725a42; color:#ffffff"><span>secondary</span>#725a42</div>
+<div style="background:#ffffff; color:#000000"><span>on_<wbr>secondary</span>#ffffff</div>
+<div style="background:#ffdcbe; color:#000000"><span>secondary_<wbr>container</span>#ffdcbe</div>
+<div style="background:#59422c; color:#ffffff"><span>on_<wbr>secondary_<wbr>container</span>#59422c</div>
+</div>
+<h3>secondary fixed</h3>
+<div class="swatches">
+<div style="background:#ffdcbe; color:#000000"><span>secondary_<wbr>fixed</span>#ffdcbe</div>
+<div style="background:#e1c1a4; color:#000000"><span>secondary_<wbr>fixed_<wbr>dim</span>#e1c1a4</div>
+<div style="background:#291806; color:#ffffff"><span>on_<wbr>secondary_<wbr>fixed</span>#291806</div>
+<div style="background:#59422c; color:#ffffff"><span>on_<wbr>secondary_<wbr>fixed_<wbr>variant</span>#59422c</div>
+</div>
+<h3>tertiary</h3>
+<div class="swatches">
+<div style="background:#58633a; color:#ffffff"><span>tertiary</span>#58633a</div>
+<div style="background:#ffffff; color:#000000"><span>on_<wbr>tertiary</span>#ffffff</div>
+<div style="background:#dce8b4; color:#000000"><span>tertiary_<wbr>container</span>#dce8b4</div>
+<div style="background:#404b24; color:#ffffff"><span>on_<wbr>tertiary_<wbr>container</span>#404b24</div>
+</div>
+<h3>tertiary fixed</h3>
+<div class="swatches">
+<div style="background:#dce8b4; color:#000000"><span>tertiary_<wbr>fixed</span>#dce8b4</div>
+<div style="background:#c0cc9a; color:#000000"><span>tertiary_<wbr>fixed_<wbr>dim</span>#c0cc9a</div>
+<div style="background:#161f01; color:#ffffff"><span>on_<wbr>tertiary_<wbr>fixed</span>#161f01</div>
+<div style="background:#404b24; color:#ffffff"><span>on_<wbr>tertiary_<wbr>fixed_<wbr>variant</span>#404b24</div>
+</div>
+<h3>error</h3>
+<div class="swatches">
+<div style="background:#ba1a1a; color:#ffffff"><span>error</span>#ba1a1a</div>
+<div style="background:#ffffff; color:#000000"><span>on_<wbr>error</span>#ffffff</div>
+<div style="background:#ffdad6; color:#000000"><span>error_<wbr>container</span>#ffdad6</div>
+<div style="background:#93000a; color:#ffffff"><span>on_<wbr>error_<wbr>container</span>#93000a</div>
+</div>
+<h2>Dark</h2>
+<h3>background</h3>
+<div class="swatches">
+<div style="background:#19120c; color:#ffffff"><span>background</span>#19120c</div>
+<div style="background:#efe0d5; color:#000000"><span>on_<wbr>background</span>#efe0d5</div>
+</div>
+<h3>surface</h3>
+<div class="swatches">
+<div style="background:#19120c; color:#ffffff"><span>surface</span>#19120c</div>
+<div style="background:#19120c; color:#ffffff"><span>surface_<wbr>dim</span>#19120c</div>
+<div style="background:#403830; color:#ffffff"><span>surface_<wbr>bright</span>#403830</div>
+<div style="background:#efe0d5; color:#000000"><span>on_<wbr>surface</span>#efe0d5</div>
+<div style="background:#d5c3b5; color:#000000"><span>on_<wbr>surface_<wbr>variant</span>#d5c3b5</div>
+</div>
+<h3>surface containers</h3>
+<div class="swatches">
+<div style="background:#130d07; color:#ffffff"><span>surface_<wbr>container_<wbr>lowest</span>#130d07</div>
+<div style="background:#211a14; color:#ffffff"><span>surface_<wbr>container_<wbr>low</span>#211a14</div>
+<div style="background:#261e18; color:#ffffff"><span>surface_<wbr>container</span>#261e18</div>
+<div style="background:#302921; color:#ffffff"><span>surface_<wbr>container_<wbr>high</span>#302921</div>
+<div style="background:#3c332c; color:#ffffff"><span>surface_<wbr>container_<wbr>highest</span>#3c332c</div>
+</div>
+<h3>inverse</h3>
+<div class="swatches">
+<div style="background:#efe0d5; color:#000000"><span>inverse_<wbr>surface</span>#efe0d5</div>
+<div style="background:#372f28; color:#ffffff"><span>inverse_<wbr>on_<wbr>surface</span>#372f28</div>
+<div style="background:#855318; color:#ffffff"><span>inverse_<wbr>primary</span>#855318</div>
+</div>
+<h3>outline</h3>
+<div class="swatches">
+<div style="background:#9d8e81; color:#000000"><span>outline</span>#9d8e81</div>
+<div style="background:#51453a; color:#ffffff"><span>outline_<wbr>variant</span>#51453a</div>
+</div>
+<h3>primary</h3>
+<div class="swatches">
+<div style="background:#fcb975; color:#000000"><span>primary</span>#fcb975</div>
+<div style="background:#4a2800; color:#ffffff"><span>on_<wbr>primary</span>#4a2800</div>
+<div style="background:#693c00; color:#ffffff"><span>primary_<wbr>container</span>#693c00</div>
+<div style="background:#ffdcbe; color:#000000"><span>on_<wbr>primary_<wbr>container</span>#ffdcbe</div>
+</div>
+<h3>primary fixed</h3>
+<div class="swatches">
+<div style="background:#ffdcbe; color:#000000"><span>primary_<wbr>fixed</span>#ffdcbe</div>
+<div style="background:#fcb975; color:#000000"><span>primary_<wbr>fixed_<wbr>dim</span>#fcb975</div>
+<div style="background:#2c1600; color:#ffffff"><span>on_<wbr>primary_<wbr>fixed</span>#2c1600</div>
+<div style="background:#693c00; color:#ffffff"><span>on_<wbr>primary_<wbr>fixed_<wbr>variant</span>#693c00</div>
+</div>
+<h3>secondary</h3>
+<div class="swatches">
+<div style="background:#e1c1a4; color:#000000"><span>secondary</span>#e1c1a4</div>
+<div style="background:#402c18; color:#ffffff"><span>on_<wbr>secondary</span>#402c18</div>
+<div style="background:#59422c; color:#ffffff"><span>secondary_<wbr>container</span>#59422c</div>
+<div style="background:#ffdcbe; color:#000000"><span>on_<wbr>secondary_<wbr>container</span>#ffdcbe</div>
+</div>
+<h3>secondary fixed</h3>
+<div class="swatches">
+<div style="background:#ffdcbe; color:#000000"><span>secondary_<wbr>fixed</span>#ffdcbe</div>
+<div style="background:#e1c1a4; color:#000000"><span>secondary_<wbr>fixed_<wbr>dim</span>#e1c1a4</div>
+<div style="background:#291806; color:#ffffff"><span>on_<wbr>secondary_<wbr>fixed</span>#291806</div>
+<div style="background:#59422c; color:#ffffff"><span>on_<wbr>secondary_<wbr>fixed_<wbr>variant</span>#59422c</div>
+</div>
+<h3>tertiary</h3>
+<div class="swatches">
+<div style="background:#c0cc9a; color:#000000"><span>tertiary</span>#c0cc9a</div>
+<div style="background:#2a3410; color:#ffffff"><span>on_<wbr>tertiary</span>#2a3410</div>
+<div style="background:#404b24; color:#ffffff"><span>tertiary_<wbr>container</span>#404b24</div>
+<div style="background:#dce8b4; color:#000000"><span>on_<wbr>tertiary_<wbr>container</span>#dce8b4</div>
+</div>
+<h3>tertiary fixed</h3>
+<div class="swatches">
+<div style="background:#dce8b4; color:#000000"><span>tertiary_<wbr>fixed</span>#dce8b4</div>
+<div style="background:#c0cc9a; color:#000000"><span>tertiary_<wbr>fixed_<wbr>dim</span>#c0cc9a</div>
+<div style="background:#161f01; color:#ffffff"><span>on_<wbr>tertiary_<wbr>fixed</span>#161f01</div>
+<div style="background:#404b24; color:#ffffff"><span>on_<wbr>tertiary_<wbr>fixed_<wbr>variant</span>#404b24</div>
+</div>
+<h3>error</h3>
+<div class="swatches">
+<div style="background:#ffb4ab; color:#000000"><span>error</span>#ffb4ab</div>
+<div style="background:#690005; color:#ffffff"><span>on_<wbr>error</span>#690005</div>
+<div style="background:#93000a; color:#ffffff"><span>error_<wbr>container</span>#93000a</div>
+<div style="background:#ffdad6; color:#000000"><span>on_<wbr>error_<wbr>container</span>#ffdad6</div>
+</div>
+</body>
+</html>
