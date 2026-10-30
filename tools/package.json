@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "description": "Command-line tools for extracting colors from images (see dev_guide/extracting_colors.md).",
+  "type": "module",
+  "dependencies": {
+    "@material/material-color-utilities": "^0.4.0"
+  }
+}
